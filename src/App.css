@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.header{
+  background-color: #000;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header h1{
+  color: #fff;
+}
+.card{
+  padding: 24px;
+  margin: 15px;
+  width: 250px;
+  border: 1px solid ;
+}
+.title{
+  font-weight: 800;
+}
